@@ -8,11 +8,23 @@ This project performs an exploratory analysis on countries using data from the C
 
 ## Data
 
-The datasets used are:
+The key highlights about the dataset used in this project:
 
-- CIA_Country_Facts.csv: Contains demographic and economic metrics for 266 countries/regions from the CIA Factbook. 
+- The project utilizes data from the CIA World Factbook, which is an open publication produced by the US Central Intelligence Agency with profiles of 266 world entities. 
 
-- country_iso_codes.csv: Maps ISO country codes to country names.
+- The Factbook contains demographic, geographic, economic and societal statistics along with background information about countries and dependencies. 
+
+- Two primary CSV files are used - CIA_Country_Facts.csv containing metrics for 266 countries, and country_iso_codes.csv mapping ISO codes to names.
+
+- CIA_Country_Facts.csv includes over 80 quantitative and qualitative variables on topics like government, economy, people & society, energy, communications, transportation and military for each country.
+
+- Some key variables include GDP, population, income/poverty levels, healthcare access, education rates, disease prevalence, natural resources, infrastructure and military strength. 
+
+- The large, multi-dimensional nature of the dataset with variables spanning diverse socioeconomic indicators makes it suitable for exploratory analysis and modeling of relationships between development factors across nations.
+
+- The Factbook is an open, authoritative source maintained by CIA for transparency, making the data reliable and routinely updated for current statistical baselines on all UN member countries and observers.
+
+So in summary, the CIA World Factbook provides a comprehensive repository of structured, multifaceted data on countries globally to power informative analyses like the one presented in this project.
 
 - Online Link: https://www.kaggle.com/datasets/lucafrance/the-world-factbook-by-cia 
 
